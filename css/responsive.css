@@ -1,0 +1,90 @@
+/* ======Responsive section start from here===== */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    /* header section */
+    .header .carousel .carousel-item h2{
+        font-size:25px !important;
+    }
+    .header .carousel .carousel-item p{
+        padding-right:0px !important;
+    }
+    .header .carousel .carousel-inner .carousel-item img{
+        width:200px !important;
+        height:200px !important;
+        margin-top:50px;
+    }
+    .carousel-item{
+        text-align:center;
+    }
+    /* category section */
+    .category .cat-content .third-img img{
+        width:200px !important;
+        height:200px !important;
+    }
+
+    
+
+    /* code ends here */
+  }
+  /* ======================= */
+  
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    /* header section */
+    .header .carousel .carousel-item p{
+        padding-right:10px !important;
+    }
+    .carousel-item{
+        text-align:center;
+    }
+    .header .carousel .carousel-inner .carousel-item img{
+        width:300px !important;
+        height:300px !important;
+        margin-top:30px;
+    }
+    
+
+    /* code ends here */
+  }
+  /* =================== */
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    /* CSS */
+    /* header section here */
+    .header .carousel .carousel-item p{
+        padding-right:10px !important;
+    }
+    .header .carousel .carousel-inner .carousel-item img{
+        width:300px !important;
+        height:300px !important;
+    }
+    /* cards */
+    .card-body{
+        padding:20px 5px !important;
+    }
+    /* category sec */
+    .category .cat-content .third-img img{
+        width:250px !important;
+        height:250px !important;
+    }
+
+
+    /* code ends here */
+  }
